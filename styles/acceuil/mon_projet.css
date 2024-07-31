@@ -49,14 +49,14 @@ header{
 }
 .lies{
   position: absolute;
-  border: 1px solid;
+
   height: 50vh;
   width: 80vw;
   left: 10%;
   top: 2%;
   border-radius: 15px;
   padding: 5%;
-  box-shadow: 0 2px 10px 0 black;
+  box-shadow: 0 6px 15px 0 #0a0a23;
 }
 .l-2{
   top: 30%;
