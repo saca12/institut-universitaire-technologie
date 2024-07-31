@@ -3,6 +3,11 @@
     padding: 0;
     text-decoration: none;
 }
+
+body {
+    overflow-x: hidden;
+}
+
 .back{
     position: absolute;
     width: 100vw;

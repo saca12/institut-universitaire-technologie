@@ -5,7 +5,7 @@
     margin: 0;
     padding: 0;
     text-decoration: none;
-    font-family: 'Montserrat' sans-serif;
+    font-family: 'Montserrat', sans-serif;
     box-sizing: border-box;
     color: #f8f9fa;
 }
@@ -63,7 +63,7 @@
 
 .nav-links li a:hover,.active{
     border-bottom: 1px solid #FF7F50;
-    word-spacing: 5%;
+    word-spacing: 5px;
     color: #FF7F50;
     transition: 0.3s;
 }
@@ -150,10 +150,9 @@
         right: 15%;
         background: #007BFF;
         top: 20%;
-        padding: 15%;
         margin-top: 10%;
         border-radius: 15px;
-        padding-left: 20%;
+        padding: 15% 15% 15% 20%;
         letter-spacing: 5px;
         backdrop-filter: 0 2px 40px 0 black;
     }
