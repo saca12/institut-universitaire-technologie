@@ -449,7 +449,7 @@ select{
 }
 .suivant{
     position: absolute;
-    display: flex;
+    display: none;
     width: 60%;
     height: 95vh;
     background: linear-gradient(#007BFF,#003366 );
@@ -459,7 +459,7 @@ select{
 }
 .follow{
     transition: 0.5s;
-    display: block;
+    display: flex;
     animation: transit 0.4s;
 }
 .info_comp{
