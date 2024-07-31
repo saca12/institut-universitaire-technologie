@@ -1,0 +1,144 @@
+
+footer{
+    position: absolute;
+    background: linear-gradient(rgb(14, 84, 189),#007BFF);
+    color: #F8f9fa;
+    font-weight: 600;
+    bottom: -70%;
+    left: 0;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    padding: 1%;
+    justify-content: center;
+    border-top-right-radius: 150px;
+    box-shadow: 0 4px 10px 0 black;
+}
+#hamburger{
+    display: none;
+}
+.cont{
+    width: 90%;
+    display: flex;
+    margin:0 0 0 10%;
+    padding: 5%;
+    justify-content: center;
+}
+.logo-2{
+    position: absolute;
+    left: 5%;
+    top: 35%;
+    display: flex;
+    flex-direction: column;
+    height: 30vh;
+}
+.logo-1,.logo,.logo-3{
+    position: absolute;
+    bottom: 0;
+    width: 7vw;
+    height: 13vh;
+    border-radius: 15px;
+    cursor: pointer;
+    box-shadow: 0 4px 10px 0 black;
+}
+.logo-1{
+    background: url(../images/logoesi.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.logo{
+    background: url(../images/img6.jpeg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    bottom: 16vh;
+}
+.logo-3{
+    background: url(../images/unb.jpg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    bottom: 32vh;
+}
+.logo-1:hover,.logo:hover,.logo-3:hover{
+    width: 7.5vw;
+    height: 14vh;
+    transition: 0.3s;
+}
+footer .list{
+    display: flex;
+    flex-direction: column;
+    margin: 25px;
+    position: relative;
+    width: 30%;
+}
+footer .list ul{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    justify-content: center;
+    left: 0;
+    top: 20%;
+    
+}
+footer .list p,li,a{
+    margin: 10px 0 10px 0;
+    text-decoration: none;
+    cursor: pointer;
+}
+footer .list a{
+    text-decoration: none;
+}
+footer .list h3{
+    text-decoration: underline;
+    text-transform: uppercase;
+    cursor: pointer;
+    margin-bottom: 25px;
+}
+footer .list a:hover{
+    text-decoration: underline;
+    color: #b43535;
+    transition: 0.3s;
+}
+footer .list #adresse:hover{
+    text-decoration: none;
+}
+footer .list .gmail{
+    text-decoration: underline;
+}
+footer .list .gmail:hover{
+    color:  #b43535;
+    transition: 0.3s;
+}
+.author{
+    position: absolute;
+    margin-left: 40%;
+    bottom: 5%;
+}
+@media  screen and (max-width: 850px){
+    footer{
+        height: 85%;
+    }
+    .logo-1:hover,.logo:hover,.logo-3:hover{
+        width: 15vw;
+    }
+    .cont{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        width: 70%;
+        right: 0;
+        align-items: center;
+        text-align: center;
+    }
+    .logo-1,.logo,.logo-3{
+        width: 15vw;
+    }
+    footer p,footer h3, footer ul{
+        width: 40vw;
+    }
+    .author{
+        left: -30%;
+    }
+}

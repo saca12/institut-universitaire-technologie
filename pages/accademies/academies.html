@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Académique - IUT de l'Université Nazi Boni</title>
+    <link rel="stylesheet" href="../../styles/acc/accademies.css">
+    <link rel="stylesheet" href="../../styles/adm/style.css">
+    <link rel="stylesheet" href="../../styles/footer.css">
+    <script src="../../scripts/acc/disp.js"></script>
+</head>
+<body>
+    <div class="bgr"></div>
+<!-- academies-->
+    <main>
+        <section class="menu">
+            <main class="links">
+                <h2>Nos Départements et Cours</h2>
+                <ul>
+                    <li id="gc">
+                        <h4 onclick="display(gc)">Génie Civil (GC)</h4> 
+                        <ul>
+                            <li>
+                                <svg height="16" viewBox="0 0 16 16" width="16" xmlns="http://www.w3.org/2000/svg"><path d="m9.707 13.707 5-5c.391-.39.391-1.024 0-1.414l-5-5c-.391-.391-1.024-.391-1.414 0s-.391 1.024 0 1.414l3.293 3.293h-9.586c-.552 0-1 .448-1 1s.448 1 1 1h9.586l-3.293 3.293c-.195.195-.293.451-.293.707s.098.512.293.707c.391.391 1.024.391 1.414 0z"/></svg>
+                                <a href="#" class="math" onclick="fetcSource('maths.html')">Mathematique</a>
+                            </li>
+                            <li>
+                                <svg height="16" viewBox="0 0 16 16" width="16" xmlns="http://www.w3.org/2000/svg"><path d="m9.707 13.707 5-5c.391-.39.391-1.024 0-1.414l-5-5c-.391-.391-1.024-.391-1.414 0s-.391 1.024 0 1.414l3.293 3.293h-9.586c-.552 0-1 .448-1 1s.448 1 1 1h9.586l-3.293 3.293c-.195.195-.293.451-.293.707s.098.512.293.707c.391.391 1.024.391 1.414 0z"/></svg>
+                                <a href="#" class="archi" onclick="fetcSource('architech.html')">architecture</a>
+                            </li>
+                        </ul> 
+                    </li>
+                    <li id="gim">
+                        <h4 onclick="display(gim)">Génie Industriel et Maintenance (GIM)</h4>
+                        <ul>
+                            <li>
+                                <svg height="16" viewBox="0 0 16 16" width="16" xmlns="http://www.w3.org/2000/svg"><path d="m9.707 13.707 5-5c.391-.39.391-1.024 0-1.414l-5-5c-.391-.391-1.024-.391-1.414 0s-.391 1.024 0 1.414l3.293 3.293h-9.586c-.552 0-1 .448-1 1s.448 1 1 1h9.586l-3.293 3.293c-.195.195-.293.451-.293.707s.098.512.293.707c.391.391 1.024.391 1.414 0z"/></svg>
+                                <a class="maintenance" href="#" onclick="fetcSource('maintenance.html')">Gestion de la maintenance</a>
+                            </li> 
+                            <li>
+                                <svg height="16" viewBox="0 0 16 16" width="16" xmlns="http://www.w3.org/2000/svg"><path d="m9.707 13.707 5-5c.391-.39.391-1.024 0-1.414l-5-5c-.391-.391-1.024-.391-1.414 0s-.391 1.024 0 1.414l3.293 3.293h-9.586c-.552 0-1 .448-1 1s.448 1 1 1h9.586l-3.293 3.293c-.195.195-.293.451-.293.707s.098.512.293.707c.391.391 1.024.391 1.414 0z"/></svg>
+                                <a class="systemes" href="#" onclick="fetcSource('systemes.html')">fiabilité et diagnostic des systèmes Industriels</a>
+                            </li> 
+                        </ul>
+                    </li>
+                    <li id="gmp">
+                        <h4 onclick="display(gmp)">Génie Mecanique et Productique(GMP)</h4>
+                        <ul>
+                            <li>
+                                <svg height="16" viewBox="0 0 16 16" width="16" xmlns="http://www.w3.org/2000/svg"><path d="m9.707 13.707 5-5c.391-.39.391-1.024 0-1.414l-5-5c-.391-.391-1.024-.391-1.414 0s-.391 1.024 0 1.414l3.293 3.293h-9.586c-.552 0-1 .448-1 1s.448 1 1 1h9.586l-3.293 3.293c-.195.195-.293.451-.293.707s.098.512.293.707c.391.391 1.024.391 1.414 0z"/></svg>
+                                <a class="ordi" href="#" onclick="fetcSource('ordi.html')">conception mécanique assistée par ordinateur(CAO)</a>
+                            </li> 
+                            <li>
+                                <svg height="16" viewBox="0 0 16 16" width="16" xmlns="http://www.w3.org/2000/svg"><path d="m9.707 13.707 5-5c.391-.39.391-1.024 0-1.414l-5-5c-.391-.391-1.024-.391-1.414 0s-.391 1.024 0 1.414l3.293 3.293h-9.586c-.552 0-1 .448-1 1s.448 1 1 1h9.586l-3.293 3.293c-.195.195-.293.451-.293.707s.098.512.293.707c.391.391 1.024.391 1.414 0z"/></svg>
+                                <a class="fabri" href="#" onclick="fetcSource('fabri.html')">procédés de fabrication</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li  id="etk">
+                        <h4 onclick="display(etk)">Génie électrique option Electrotechnique(ETK)</h4>
+                        <ul>
+                            <li>
+                                <svg height="16" viewBox="0 0 16 16" width="16" xmlns="http://www.w3.org/2000/svg"><path d="m9.707 13.707 5-5c.391-.39.391-1.024 0-1.414l-5-5c-.391-.391-1.024-.391-1.414 0s-.391 1.024 0 1.414l3.293 3.293h-9.586c-.552 0-1 .448-1 1s.448 1 1 1h9.586l-3.293 3.293c-.195.195-.293.451-.293.707s.098.512.293.707c.391.391 1.024.391 1.414 0z"/></svg>
+                                <a class="mach" href="#" onclick="fetcSource('mach.html')">machines électriques</a>
+                            </li> 
+                            <li>
+                                <svg height="16" viewBox="0 0 16 16" width="16" xmlns="http://www.w3.org/2000/svg"><path d="m9.707 13.707 5-5c.391-.39.391-1.024 0-1.414l-5-5c-.391-.391-1.024-.391-1.414 0s-.391 1.024 0 1.414l3.293 3.293h-9.586c-.552 0-1 .448-1 1s.448 1 1 1h9.586l-3.293 3.293c-.195.195-.293.451-.293.707s.098.512.293.707c.391.391 1.024.391 1.414 0z"/></svg>
+                                <a class="elect" href="#" onclick="fetcSource('elect.html')">systèmes de distribution électrique</a>
+                            </li>
+                        </ul> 
+                    </li>
+                    <li  id="elo">
+                        <h4 onclick="display(elo)">Génie électrique option Electronique(ELO)</h4>
+                        <ul>
+                            <li>
+                                <svg height="16" viewBox="0 0 16 16" width="16" xmlns="http://www.w3.org/2000/svg"><path d="m9.707 13.707 5-5c.391-.39.391-1.024 0-1.414l-5-5c-.391-.391-1.024-.391-1.414 0s-.391 1.024 0 1.414l3.293 3.293h-9.586c-.552 0-1 .448-1 1s.448 1 1 1h9.586l-3.293 3.293c-.195.195-.293.451-.293.707s.098.512.293.707c.391.391 1.024.391 1.414 0z"/></svg>
+                                <a class="electro" href="#" onclick="fetcSource('electro.html')">circuits électroniques</a></li> 
+                            <li>
+                                <svg height="16" viewBox="0 0 16 16" width="16" xmlns="http://www.w3.org/2000/svg"><path d="m9.707 13.707 5-5c.391-.39.391-1.024 0-1.414l-5-5c-.391-.391-1.024-.391-1.414 0s-.391 1.024 0 1.414l3.293 3.293h-9.586c-.552 0-1 .448-1 1s.448 1 1 1h9.586l-3.293 3.293c-.195.195-.293.451-.293.707s.098.512.293.707c.391.391 1.024.391 1.414 0z"/></svg>
+                                <a class="embar" href="#" onclick="fetcSource('embar.html')">Microcontroleurs et systèmes embarqués</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li  id="mgc">
+                        <h4 onclick="display(mgc)">Marketing et Gestion Commercial(MGC)</h4>
+                        <ul>
+                            <li>
+                                <svg height="16" viewBox="0 0 16 16" width="16" xmlns="http://www.w3.org/2000/svg"><path d="m9.707 13.707 5-5c.391-.39.391-1.024 0-1.414l-5-5c-.391-.391-1.024-.391-1.414 0s-.391 1.024 0 1.414l3.293 3.293h-9.586c-.552 0-1 .448-1 1s.448 1 1 1h9.586l-3.293 3.293c-.195.195-.293.451-.293.707s.098.512.293.707c.391.391 1.024.391 1.414 0z"/></svg>
+                                <a class="negoci" href="#" onclick="fetcSource('negoci.html')">techniques de vente et de négociation</a>
+                            </li> 
+                            <li>
+                                <svg height="16" viewBox="0 0 16 16" width="16" xmlns="http://www.w3.org/2000/svg"><path d="m9.707 13.707 5-5c.391-.39.391-1.024 0-1.414l-5-5c-.391-.391-1.024-.391-1.414 0s-.391 1.024 0 1.414l3.293 3.293h-9.586c-.552 0-1 .448-1 1s.448 1 1 1h9.586l-3.293 3.293c-.195.195-.293.451-.293.707s.098.512.293.707c.391.391 1.024.391 1.414 0z"/></svg>
+                                <a class="marketing" href="#" onclick="fetcSource('marketing.html')">strategie de marketing</a>
+                            </li> 
+                        </ul>
+                    </li>
+                    <li  id="sd">
+                        <h4 onclick="display(sd)">Secretariat de Direction</a></h4>
+                        <ul>
+                            <li>
+                                <svg height="16" viewBox="0 0 16 16" width="16" xmlns="http://www.w3.org/2000/svg"><path d="m9.707 13.707 5-5c.391-.39.391-1.024 0-1.414l-5-5c-.391-.391-1.024-.391-1.414 0s-.391 1.024 0 1.414l3.293 3.293h-9.586c-.552 0-1 .448-1 1s.448 1 1 1h9.586l-3.293 3.293c-.195.195-.293.451-.293.707s.098.512.293.707c.391.391 1.024.391 1.414 0z"/></svg>
+                                <a class="commu" href="#" onclick="fetcSource('commu.html')">techniques de communication</a>
+                            </li> 
+                            <li>
+                                <svg height="16" viewBox="0 0 16 16" width="16" xmlns="http://www.w3.org/2000/svg"><path d="m9.707 13.707 5-5c.391-.39.391-1.024 0-1.414l-5-5c-.391-.391-1.024-.391-1.414 0s-.391 1.024 0 1.414l3.293 3.293h-9.586c-.552 0-1 .448-1 1s.448 1 1 1h9.586l-3.293 3.293c-.195.195-.293.451-.293.707s.098.512.293.707c.391.391 1.024.391 1.414 0z"/></svg>
+                                <a class="priori" href="#" onclick="fetcSource('priori.html')">gestion du temps et des priorités</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </main>
+        </section>
+        <section class="content">
+            <iframe class="container1" src="main.html" frameborder="0"></iframe>
+            <iframe src="main2.html" class="main2" frameborder="0"></iframe>
+        </section>
+    </main>
+    <footer>
+        <div class="cont">
+            <div class="logo-2">
+                <div class="logo-1"></div>
+                <div class="logo"></div>
+                <div class="logo-3"></div>
+            </div>
+            <div class="list">
+                <h3 class="partenaires">Partenaires</h3>
+                <p>Ministère de l'Enseignement Superieur et de l'Innovation</p>
+                <p>Université Nazi Boni</p>
+                <p>Ecole Superieure d'Informatique</p>
+                <p>SuperNova</p>
+            </div>
+            <div class="list">
+                <h3 class="adresse">Contacts</h3>
+                <p class="phone">+226 07-00-00-00</p>
+                <a href="" id="adresse"><p class="gmail">mon_adresse_gmail@gmail.com</p></a>
+            </div>
+            <div class="list">
+                <h3 class="follow">Nous suivre</h3>
+                <ul type="none">
+                    <li><a class="youtub" href="">Youtub</a></li>
+                    <li><a class="insta" href="">Instagram</a></li>
+                    <li><a class="twitter" href="">Twitter</a></li>
+                    <li><a class="linkedin" href="">Linkedin</a></li>
+                </ul>
+            </div>
+        </div>
+        <p class="author">&copy;2024 IUT de l'Université Nazi Boni</p>
+    </footer>  
+</body>
+<script>
+    const container1 =  document.querySelector('.container1')
+    function fetcSource(src){
+            container1.setAttribute('src',src)
+    }
+    
+</script>
+</html>

@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IUT-UNB</title>
+    <link rel="stylesheet" href="../styles/acceuil.css">
+    <link rel="stylesheet" href="../styles/header.css">
+    <link rel="stylesheet" href="../styles/adm/style.css">
+    <script src="../scripts/acceuil.js"></script>
+</head>
+<body>
+    <iframe class="the-content" src="acceuil/mon_projet.html" frameborder="0"></iframe>
+    <nav class="nav-bar">
+        <a href="acceuil.html"><div class="logo"></div></a>
+        <ul class="nav-links" type="none">
+            <li><a class="home active" href="#" onclick="change_content('./acceuil/mon_projet.html')">Acceuil</a></li>
+            <li><a class="about academies" href="#" onclick="change_content('./accademies/academies.html')">Accademies</a></li>
+            <li><a class="log" href="#" onclick="change_content('./admission/adm.html')">Admission</a></li>
+            <li><a class="galerie" href="#" onclick="change_content('./galerie/galerie.html')">Galérie</a></li>
+        </ul>
+        <div class="min-heigh">
+            <svg width="800px" height="800px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M4 6H20M4 12H20M4 18H20" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+        </div>
+        <div class="min-heigh-cross">
+            <svg width="800px" height="800px" viewBox="0 0 25 25" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    
+                <title>cross</title>
+                <desc>Created with Sketch Beta.</desc>
+                <defs>
+            
+                </defs>
+                    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+                        <g id="Icon-Set-Filled" sketch:type="MSLayerGroup" transform="translate(-469.000000, -1041.000000)" fill="#000000">
+                            <path d="M487.148,1053.48 L492.813,1047.82 C494.376,1046.26 494.376,1043.72 492.813,1042.16 C491.248,1040.59 488.712,1040.59 487.148,1042.16 L481.484,1047.82 L475.82,1042.16 C474.257,1040.59 471.721,1040.59 470.156,1042.16 C468.593,1043.72 468.593,1046.26 470.156,1047.82 L475.82,1053.48 L470.156,1059.15 C468.593,1060.71 468.593,1063.25 470.156,1064.81 C471.721,1066.38 474.257,1066.38 475.82,1064.81 L481.484,1059.15 L487.148,1064.81 C488.712,1066.38 491.248,1066.38 492.813,1064.81 C494.376,1063.25 494.376,1060.71 492.813,1059.15 L487.148,1053.48" id="cross" sketch:type="MSShapeGroup">
+                
+                </path>
+                        </g>
+                    </g>
+            </svg>
+        </div>
+        <div class="search">
+            <input class="recherche" type="text" placeholder="rechercher">
+            <div class="log-o">
+                <svg width="800px" height="800px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M15 10.5C15 12.9853 12.9853 15 10.5 15C8.01472 15 6 12.9853 6 10.5C6 8.01472 8.01472 6 10.5 6C12.9853 6 15 8.01472 15 10.5ZM14.1793 15.2399C13.1632 16.0297 11.8865 16.5 10.5 16.5C7.18629 16.5 4.5 13.8137 4.5 10.5C4.5 7.18629 7.18629 4.5 10.5 4.5C13.8137 4.5 16.5 7.18629 16.5 10.5C16.5 11.8865 16.0297 13.1632 15.2399 14.1792L20.0304 18.9697L18.9697 20.0303L14.1793 15.2399Z" fill="#080341"/>
+                </svg>
+            </div>
+        </div>
+    </nav>
+</body>
+<script>
+    const home = document.querySelector('.home')
+    const academies = document.querySelector('.academies')
+    const log = document.querySelector('.log')
+    const galerie = document.querySelector('.galerie')
+
+    home.addEventListener('click',()=>{
+        home.classList.add('active')
+        academies.classList.remove('active')
+        log.classList.remove('active')
+        galerie.classList.remove('active')
+    })
+
+    academies.addEventListener('click',()=>{
+        academies.classList.add('active')
+        home.classList.remove('active')
+        log.classList.remove('active')
+        galerie.classList.remove('active')
+    })
+
+    log.addEventListener('click',()=>{
+        log.classList.add('active')
+        academies.classList.remove('active')
+        home.classList.remove('active')
+        galerie.classList.remove('active')
+    })
+
+    galerie.addEventListener('click',()=>{
+        galerie.classList.add('active')
+        academies.classList.remove('active')
+        log.classList.remove('active')
+        home.classList.remove('active')
+    })
+
+    const ham = document.querySelector('.min-heigh')
+    const cross = document.querySelector('.min-heigh-cross')
+    const nav = document.querySelector('.nav-links')
+
+    ham.addEventListener('click',()=>{
+        nav.classList.add('disp-now')
+        if(nav.classList.contains('disp-now')){
+            ham.style.display="none"
+            cross.style.display="block"
+        }
+    })
+    cross.addEventListener('click',()=>{
+        nav.classList.remove('disp-now')
+        if(!nav.classList.contains('disp-now')){
+            cross.style.display="none"
+            ham.style.display="block"
+        }
+    })
+
+
+
+</script>
+</html>

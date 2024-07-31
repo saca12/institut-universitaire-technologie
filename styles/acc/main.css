@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: none;
+    text-decoration: none;
+    color: #f8f9fa;
+}
+header{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 2%;
+    left: 20%;
+    font-weight: 600;
+    letter-spacing: 5px;
+    text-shadow: 2px 2px 4px #000000;
+}
+header h1{
+    color: #28A745;
+    text-transform: uppercase;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.box{
+    position: absolute;
+    width: 80%;
+    height: 80%;
+    margin: 3%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    border-radius: 15px;
+}
+.box legend{
+    font-size: 28px;
+}
+
+.box h2{
+    margin: 5%;
+    color: #FF7F50;
+    text-shadow: 1px 1px 1px black;
+}
+.box h3{
+    position: absolute;
+    left: 5%;
+    top: 20%;
+    text-decoration: underline;
+}
+.box ul{
+    position: absolute;
+    left: 20%;
+    top: 30%;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    list-style:circle;
+    width: 50vw;
+    height: 35vh;
+    letter-spacing: 3px;
+    word-spacing: 2px;
+    padding: 2%;
+}
+.box ul li{
+    font-size: 20px;
+    margin-left: 2%;
+    cursor: pointer;
+    font-weight: 600;
+}
+.date{
+    position: absolute;
+    right: 5%;
+    bottom: 5%;
+    background-color: #ccc;
+    padding: 2%;
+}
+.date h4{
+    color: black;
+}
+.presentation .depart{
+    margin-top: 20%;
+}

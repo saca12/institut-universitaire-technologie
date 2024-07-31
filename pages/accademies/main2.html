@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>welcome academie</title>
+    <link rel="stylesheet" href="../../styles/acc/accademies.css">
+    <link rel="stylesheet" href="../../styles/acc/main.css">
+    <link rel="stylesheet" href="../../styles/acc/courses.css">
+    <script src="../../scripts/acc/disp.js"></script>
+</head>
+<body>
+    <header>
+        <div class="title"><h1>Accademique à l'IUT</h1></div>
+    </header>
+    <div class="presentation">
+        <main class="links">
+            <h2 class="depart">Nos Départements et Cours</h2>
+            <ul>
+                <li id="gc">
+                    <h4 onclick="display(gc)">Génie Civil (GC)</h4> 
+                    <ul>
+                        <li>    
+                            <svg height="16" viewBox="0 0 16 16" width="16" xmlns="http://www.w3.org/2000/svg"><path d="m9.707 13.707 5-5c.391-.39.391-1.024 0-1.414l-5-5c-.391-.391-1.024-.391-1.414 0s-.391 1.024 0 1.414l3.293 3.293h-9.586c-.552 0-1 .448-1 1s.448 1 1 1h9.586l-3.293 3.293c-.195.195-.293.451-.293.707s.098.512.293.707c.391.391 1.024.391 1.414 0z"/></svg>
+                            <a href="maths.html" class="math">Mathematique</a>
+                        </li>
+                        <li>
+                            <svg height="16" viewBox="0 0 16 16" width="16" xmlns="http://www.w3.org/2000/svg"><path d="m9.707 13.707 5-5c.391-.39.391-1.024 0-1.414l-5-5c-.391-.391-1.024-.391-1.414 0s-.391 1.024 0 1.414l3.293 3.293h-9.586c-.552 0-1 .448-1 1s.448 1 1 1h9.586l-3.293 3.293c-.195.195-.293.451-.293.707s.098.512.293.707c.391.391 1.024.391 1.414 0z"/></svg>
+                            <a href="architech.html" class="archi">architecture</a>
+                        </li>
+                    </ul> 
+                </li>
+                <li id="gim">
+                    <h4 onclick="display(gim)">Génie Industriel et Maintenance (GIM)</h4>
+                    <ul>
+                        <li>
+                            <svg height="16" viewBox="0 0 16 16" width="16" xmlns="http://www.w3.org/2000/svg"><path d="m9.707 13.707 5-5c.391-.39.391-1.024 0-1.414l-5-5c-.391-.391-1.024-.391-1.414 0s-.391 1.024 0 1.414l3.293 3.293h-9.586c-.552 0-1 .448-1 1s.448 1 1 1h9.586l-3.293 3.293c-.195.195-.293.451-.293.707s.098.512.293.707c.391.391 1.024.391 1.414 0z"/></svg>
+                            <a class="maintenance" href="maintenance.html">Gestion de la maintenance</a>
+                        </li> 
+                        <li>
+                            <svg height="16" viewBox="0 0 16 16" width="16" xmlns="http://www.w3.org/2000/svg"><path d="m9.707 13.707 5-5c.391-.39.391-1.024 0-1.414l-5-5c-.391-.391-1.024-.391-1.414 0s-.391 1.024 0 1.414l3.293 3.293h-9.586c-.552 0-1 .448-1 1s.448 1 1 1h9.586l-3.293 3.293c-.195.195-.293.451-.293.707s.098.512.293.707c.391.391 1.024.391 1.414 0z"/></svg>
+                            <a class="systemes" href="systemes.html">fiabilité et diagnostic des systèmes Industriels</a>
+                        </li> 
+                    </ul>
+                </li>
+                <li id="gmp">
+                    <h4 onclick="display(gmp)">Génie Mecanique et Productique(GMP)</h4>
+                    <ul>
+                        <li>
+                            <svg height="16" viewBox="0 0 16 16" width="16" xmlns="http://www.w3.org/2000/svg"><path d="m9.707 13.707 5-5c.391-.39.391-1.024 0-1.414l-5-5c-.391-.391-1.024-.391-1.414 0s-.391 1.024 0 1.414l3.293 3.293h-9.586c-.552 0-1 .448-1 1s.448 1 1 1h9.586l-3.293 3.293c-.195.195-.293.451-.293.707s.098.512.293.707c.391.391 1.024.391 1.414 0z"/></svg>
+                            <a class="ordi" href="ordi.html">conception mécanique assistée par ordinateur(CAO)</a>
+                        </li> 
+                        <li>
+                            <svg height="16" viewBox="0 0 16 16" width="16" xmlns="http://www.w3.org/2000/svg"><path d="m9.707 13.707 5-5c.391-.39.391-1.024 0-1.414l-5-5c-.391-.391-1.024-.391-1.414 0s-.391 1.024 0 1.414l3.293 3.293h-9.586c-.552 0-1 .448-1 1s.448 1 1 1h9.586l-3.293 3.293c-.195.195-.293.451-.293.707s.098.512.293.707c.391.391 1.024.391 1.414 0z"/></svg>
+                            <a class="fabri" href="fabri.html">procédés de fabrication</a>
+                        </li>
+                    </ul>
+                </li>
+                <li  id="etk">
+                    <h4 onclick="display(etk)">Génie électrique option Electrotechnique(ETK)</h4>
+                    <ul>
+                        <li>
+                            <svg height="16" viewBox="0 0 16 16" width="16" xmlns="http://www.w3.org/2000/svg"><path d="m9.707 13.707 5-5c.391-.39.391-1.024 0-1.414l-5-5c-.391-.391-1.024-.391-1.414 0s-.391 1.024 0 1.414l3.293 3.293h-9.586c-.552 0-1 .448-1 1s.448 1 1 1h9.586l-3.293 3.293c-.195.195-.293.451-.293.707s.098.512.293.707c.391.391 1.024.391 1.414 0z"/></svg>
+                            <a class="mach" href="mach.html">machines électriques</a>
+                        </li> 
+                        <li>
+                            <svg height="16" viewBox="0 0 16 16" width="16" xmlns="http://www.w3.org/2000/svg"><path d="m9.707 13.707 5-5c.391-.39.391-1.024 0-1.414l-5-5c-.391-.391-1.024-.391-1.414 0s-.391 1.024 0 1.414l3.293 3.293h-9.586c-.552 0-1 .448-1 1s.448 1 1 1h9.586l-3.293 3.293c-.195.195-.293.451-.293.707s.098.512.293.707c.391.391 1.024.391 1.414 0z"/></svg>
+                            <a class="elect" href="elect.html">systèmes de distribution électrique</a>
+                        </li>
+                    </ul> 
+                </li>
+                <li  id="elo">
+                    <h4 onclick="display(elo)">Génie électrique option Electronique(ELO)</h4>
+                    <ul>
+                        <li>
+                            <svg height="16" viewBox="0 0 16 16" width="16" xmlns="http://www.w3.org/2000/svg"><path d="m9.707 13.707 5-5c.391-.39.391-1.024 0-1.414l-5-5c-.391-.391-1.024-.391-1.414 0s-.391 1.024 0 1.414l3.293 3.293h-9.586c-.552 0-1 .448-1 1s.448 1 1 1h9.586l-3.293 3.293c-.195.195-.293.451-.293.707s.098.512.293.707c.391.391 1.024.391 1.414 0z"/></svg>
+                            <a class="electro" href="electro.html">circuits électroniques</a></li> 
+                        <li>
+                            <svg height="16" viewBox="0 0 16 16" width="16" xmlns="http://www.w3.org/2000/svg"><path d="m9.707 13.707 5-5c.391-.39.391-1.024 0-1.414l-5-5c-.391-.391-1.024-.391-1.414 0s-.391 1.024 0 1.414l3.293 3.293h-9.586c-.552 0-1 .448-1 1s.448 1 1 1h9.586l-3.293 3.293c-.195.195-.293.451-.293.707s.098.512.293.707c.391.391 1.024.391 1.414 0z"/></svg>
+                            <a class="embar" href="embar.html">Microcontroleurs et systèmes embarqués</a>
+                        </li>
+                    </ul>
+                </li>
+                <li  id="mgc">
+                    <h4 onclick="display(mgc)">Marketing et Gestion Commercial(MGC)</h4>
+                    <ul>
+                        <li>
+                            <svg height="16" viewBox="0 0 16 16" width="16" xmlns="http://www.w3.org/2000/svg"><path d="m9.707 13.707 5-5c.391-.39.391-1.024 0-1.414l-5-5c-.391-.391-1.024-.391-1.414 0s-.391 1.024 0 1.414l3.293 3.293h-9.586c-.552 0-1 .448-1 1s.448 1 1 1h9.586l-3.293 3.293c-.195.195-.293.451-.293.707s.098.512.293.707c.391.391 1.024.391 1.414 0z"/></svg>
+                            <a class="negoci" href="negoci.html">techniques de vente et de négociation</a>
+                        </li> 
+                        <li>
+                            <svg height="16" viewBox="0 0 16 16" width="16" xmlns="http://www.w3.org/2000/svg"><path d="m9.707 13.707 5-5c.391-.39.391-1.024 0-1.414l-5-5c-.391-.391-1.024-.391-1.414 0s-.391 1.024 0 1.414l3.293 3.293h-9.586c-.552 0-1 .448-1 1s.448 1 1 1h9.586l-3.293 3.293c-.195.195-.293.451-.293.707s.098.512.293.707c.391.391 1.024.391 1.414 0z"/></svg>
+                            <a class="marketing" href="marketing.html">strategie de marketing</a>
+                        </li> 
+                    </ul>
+                </li>
+                <li  id="sd">
+                    <h4 onclick="display(sd)">Secretariat de Direction</a></h4>
+                    <ul>
+                        <li>
+                            <svg height="16" viewBox="0 0 16 16" width="16" xmlns="http://www.w3.org/2000/svg"><path d="m9.707 13.707 5-5c.391-.39.391-1.024 0-1.414l-5-5c-.391-.391-1.024-.391-1.414 0s-.391 1.024 0 1.414l3.293 3.293h-9.586c-.552 0-1 .448-1 1s.448 1 1 1h9.586l-3.293 3.293c-.195.195-.293.451-.293.707s.098.512.293.707c.391.391 1.024.391 1.414 0z"/></svg>
+                            <a class="commu" href="commu.html">techniques de communication</a>
+                        </li> 
+                        <li>
+                            <svg height="16" viewBox="0 0 16 16" width="16" xmlns="http://www.w3.org/2000/svg"><path d="m9.707 13.707 5-5c.391-.39.391-1.024 0-1.414l-5-5c-.391-.391-1.024-.391-1.414 0s-.391 1.024 0 1.414l3.293 3.293h-9.586c-.552 0-1 .448-1 1s.448 1 1 1h9.586l-3.293 3.293c-.195.195-.293.451-.293.707s.098.512.293.707c.391.391 1.024.391 1.414 0z"/></svg>
+                            <a class="priori" href="priori.html">gestion du temps et des priorités</a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </main>
+    </div>
+</body>
+</html>

@@ -1,0 +1,143 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  box-sizing: border-box;
+  color: #f8f9fa;
+}
+
+
+.bgr{
+  min-height: 150vh;
+}
+
+
+header{
+  position: absolute;
+  top: 18vh;
+  width: 100%;
+  height: 40vh;
+  background: url(../../images/img5.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  text-shadow: 2px 2px 4px black;
+  font-size: 20px;
+  border-radius: 15px;
+}
+#branding{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+.title{
+  position: absolute;
+  top: 40%;
+  letter-spacing: 4px;
+}
+
+#main{
+  position: absolute;
+  height: 200%;
+  width: 100%;
+  top: 60vh;
+  display: flex;
+  justify-content: center;
+}
+.lies{
+  position: absolute;
+  border: 1px solid;
+  height: 50vh;
+  width: 80vw;
+  left: 10%;
+  top: 2%;
+  border-radius: 15px;
+  padding: 5%;
+  box-shadow: 0 2px 10px 0 black;
+}
+.l-2{
+  top: 30%;
+}
+.l-3{
+  top: 58%;
+}
+.lies:hover{
+  width: 90vw;
+  transition: 0.5s;
+  left: 5%;
+}
+
+.lies h3{
+  color: #FF7F50;
+  text-transform: uppercase;
+  font-size: 20px;
+  letter-spacing: 3px;
+}
+
+
+    /* Styles pour le bouton hamburger */
+.hamburger {
+  position: fixed;
+  top: 20px;
+  right: 20px; 
+  background-color:#ccc;
+  color: #fff;
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+  font-size: 1.2rem;
+  z-index: 1100;
+  border-radius: 10px;
+}
+
+.hamburger:focus {
+  outline: none;
+}
+
+    /* Styles pour la barre de navigation */
+.navbar {
+  display: none;
+  position: absolute;
+  top: 60px; /* Position sous le header */
+  right: 10px; /* Alignement à droite */
+  width: 100%; /* Largeur de la navbar */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Ombre légère */
+  z-index: 1000; /* Assure que la navbar est au-dessus du reste */
+  padding: 10px 0; /* Espacement interne */
+  border-radius: 15px; /* Coins arrondis */
+}
+
+footer {
+  bottom: -200% !important;
+}
+
+    /* Styles pour la barre de navigation en mode responsive */
+    @media screen and (max-width: 768px) {
+      
+      .container {
+        width: 100%; /* Adapter la largeur à l'écran */
+      }
+
+      .hamburger {
+        font-size: 1.7rem; /* Ajuster la taille du hamburger */
+      }
+
+      .navbar {
+        width: 100%; /* Occuper toute la largeur */
+        top: 80px; /* Augmenter l'écart du haut */
+        right: 0; /* Aligner à droite */
+        display: none;
+      }
+
+      .navbar.active {
+        position: relative ; /* Fixer la navbar en haut */
+      }
+      footer{
+        min-height: 150vh;
+        bottom: -300% !important;
+      }
+
+    }
+

@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+.back{
+    position: absolute;
+    width: 100vw;
+    height: 410vh;
+    background: linear-gradient(#003366,#007BFF );
+}
+.container{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img1,.img2,.img3,.img4{
+    position: absolute;
+    width: 70vw;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 50px;
+    border: 2px solid #ccc;
+    box-shadow: 0 2px 20px 0 #444;
+    transition: 0.5s;
+}
+.img1:hover,.img2:hover,.img3:hover,.img4:hover{
+    width: 80vw;
+    height: 80vh;
+    transition: 0.5s;
+}
+.img1:hover>h1,.img2:hover>h1,.img3:hover>h1,.img4:hover>h1{
+    transform: rotate(360deg);
+}
+.img1{
+    top: 20vh;
+    background: url(../../images/tool.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    cursor: pointer;
+}
+.img2{
+    top: 105vh;
+    background: url(../../images/teach.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    cursor: pointer;
+}
+.img3{
+    top: 190vh;
+    background: url(../../images/innov.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    cursor: pointer;
+}
+.img4{
+    top: 275vh;
+    background: url(../../images/stud2.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    cursor: pointer;
+}
+h1{
+    color: #FF7F50;
+    position: absolute;
+    cursor: pointer;
+    text-shadow: 2px 2px 2px black;
+    font-size: 50px;
+    letter-spacing: 3px;
+}
+footer{
+    bottom: -320% !important;
+}
+/*
+.first,.second,.fird{
+    width: 30%;
+    height: 100%;
+    border-radius: 50px;
+    box-shadow: 1px 4px 20px 1px black;
+    margin: 1%;
+}
+.first:hover,.second:hover,.fird:hover{
+    width: 40%;
+    height: 100%;
+    transition: 0.5s;
+}
+.first,.second,.fird{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+/*
+.img1 .first{
+    background: url(../../images/stud.jpeg);
+}
+.img1 .second{
+    background: url(../../images/tool.jpg); 
+}
+.img1 .fird{
+    background: url(../../images/stud2.jpeg);
+}
+.img2 .first{
+    background: url(../../images/stud.jpeg);
+}
+.img2 .second{
+    background: url(../../images/tool.jpg); 
+}
+.img2 .fird{
+    background: url(../../images/stud2.jpeg);
+}
+.img3 .first{
+    background: url(../../images/stud.jpeg);
+}
+.img3 .second{
+    background: url(../../images/tool.jpg); 
+}
+.img3 .fird{
+    background: url(../../images/stud2.jpeg);
+}
+.img4 .first{
+    background: url(../../images/stud.jpeg);
+}
+.img4 .second{
+    background: url(../../images/tool.jpg); 
+}
+.img4 .fird{
+    background: url(../../images/stud2.jpeg);
+}
+*/
+.cont{
+    width: 80% !important;
+}
+.cont a{
+    color: #f8f9fa;
+}
+@media screen and (max-width: 850px) {
+    footer{
+        bottom: 100%;
+    }
+}

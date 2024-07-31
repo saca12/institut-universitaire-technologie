@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&family=Montserrat:ital,wght@0,100;0,400;0,500;1,100;1,200;1,300&family=Phudu:wght@700&family=Poppins:wght@100&family=Roboto:ital,wght@0,100;0,300;0,700;1,300;1,500;1,700&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: 'Montserrat' sans-serif;
+    color: #F8F9FA;
+}
+.bgr{
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgb(14, 84, 189),#007BFF);
+    background-size: auto;
+}
+
+.nav-links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav-links li{
+    margin-right: 25%;
+    font-size: 18px;
+    font-weight: 600;
+}
+.title{
+    position: absolute;
+    top: 20%;
+    margin-left: 30%;
+    border-bottom: 1px solid #ccc;
+    cursor: pointer;
+}
+.social-media{
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 8%;
+    height: 100vh;
+    background-color: rgb(14, 84, 189);
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-media ul{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 100%;
+}
+.social-media ul li{
+    margin: 20% 0;
+    border-radius: 50%;
+}
+.social-media ul li a{
+    position: absolute;
+    font-size: 30px;
+    color: #F8F9FA;
+
+}
+.social-media ul li a:hover{
+    font-size: 31px;
+    color: rgb(196, 81, 81);
+    transition: 0.3s;
+}
+.container{
+    position: absolute;
+    top: 30%;
+    left: 5%;
+    display: flex;
+    width: 50%;
+    height: 70vh;
+    width: 80vw;
+}
+.info{
+    position: absolute;
+    width: 50%;
+    height: 70%;
+    margin-top: 2%;
+}
+.info1{
+    left: 0;
+}
+.info2{
+    right: 0;
+}
+
+.container ul{
+    margin-top: 5%;
+    width: 100%;
+}
+.container .sub-title{
+    text-transform: uppercase;
+    margin-left: 15%;
+}
+.container ul li{
+    padding: 5px;
+    margin: 5%;
+    font-size: 18px;
+    border-left: 1px solid;
+    cursor: pointer;
+}
+.button{
+    position: absolute;
+    width: 10vw;
+    height: 3vw;
+    bottom: 5%;
+    margin-left: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 15px;
+}
+.button button{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    outline: none;
+    border-radius: 15px;
+    border: 1px solid;
+    box-shadow: 0 2px 10px 0 black;
+    font-weight: 600;
+}
+.button a{
+    position: absolute;
+    width: 10vw;
+    height: 3vw;
+}
+.button:hover{
+    width: 10.5vw;
+    background: rgb(196, 81, 81);
+    transition: 0.3s;
+}

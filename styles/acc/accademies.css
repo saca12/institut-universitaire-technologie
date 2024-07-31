@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&family=Montserrat:ital,wght@0,100;0,400;0,500;1,100;1,200;1,300&family=Phudu:wght@700&family=Poppins:wght@100&family=Roboto:ital,wght@0,100;0,300;0,700;1,300;1,500;1,700&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    color: #f8f9fa;
+    font-family: 'Montserrat' sans-serif;
+    box-sizing: border-box;
+}
+
+.bgr{
+    min-height: 180vh;
+}
+main{
+    position: absolute;
+    top: 15%;
+    display: flex;
+    width: 100%;
+}
+
+.menu{
+    position: absolute;
+    margin-top: 10%;
+    box-shadow: 0 2px 20px 0 black;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    max-height: 80vh;
+    height: 80vh;
+    overflow-y: scroll;
+    padding: 2% 0;
+    width: 30%;
+    background: rgb(14, 84, 189);
+}
+
+.links{
+    position: absolute;
+    top: 0; 
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    margin: 0;
+    padding: 2%;
+    flex-direction: column;
+    text-align: baseline;
+    border-top-right-radius: 15px;
+}
+.links h2{
+    text-align: center;
+    margin: 5% 0;
+    text-transform: uppercase;
+    cursor: pointer;
+    text-decoration: underline;
+    text-shadow: 2px 2px 4px #000000;
+}
+.links h4{
+    cursor: pointer;
+    border-left: 3px solid;
+    letter-spacing: 2px;
+    margin: 5% 0;
+    padding: 1%;
+}
+.links h4:hover{
+    color: #FF7F50;
+    transition: 0.3s;
+}
+.links ul{
+    margin: 2% 2%;
+    font-weight: 600;
+}
+.links ul li h3{
+    text-decoration: underline;
+    margin: 4% 0;
+}
+.links ul li{
+    margin: 0 4%;
+}
+.links ul li ul{
+    display: none;
+}
+.links ul li ul li{
+    margin: 3%;
+}
+
+.links ul li ul li a:hover{
+    text-decoration: underline;
+    color: #FF7F50;;
+}
+.affiche ul{
+    display: block !important;
+}
+ul{
+    list-style: none;
+}
+/*contents*/
+
+.container1{
+    position: relative;
+    width: 70vw;
+    height: 100vh;
+    margin-left: 45%;
+    top: 10%;
+}
+footer{
+    bottom: -100% !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cont{
+    width: 80% !important;
+}
+.main2{
+    position: absolute;
+    width: 80%;
+    top: 10vh;
+    height: 90vh;
+    margin-left: 15%;
+    display: none;
+}
+
+@media  screen and (max-width: 850px){
+    .menu{
+        display: none;
+    }
+    .container1{
+        margin-left: 10%;
+        width: 100vw;
+        display: none;
+    }
+    .main2{
+        display: block;
+    }
+}
