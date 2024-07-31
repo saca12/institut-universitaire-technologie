@@ -154,7 +154,7 @@
         border-radius: 15px;
         padding: 15% 15% 15% 20%;
         letter-spacing: 5px;
-        backdrop-filter: 0 2px 40px 0 black;
+
     }
     .logo{
         width: 20vw;
@@ -176,10 +176,10 @@
         display: none;
     }
     .nav-bar{
-        background: url(../images/img6.jpeg);
-        background-position: center;
+        background: url(../images/img6.jpeg) center;
         background-size: cover;
         border-radius: 0;
+
     }
     .nav-links{
         width: 80%;
