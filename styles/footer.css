@@ -143,3 +143,13 @@ footer .list .gmail:hover{
         left: -30%;
     }
 }
+
+@media  screen and (max-width: 480px){
+    footer {
+        bottom: -200%;
+        border-top-right-radius: 30px;
+        border-top-left-radius: 30px;
+
+    }
+
+}

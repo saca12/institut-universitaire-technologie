@@ -49,7 +49,6 @@ header{
 }
 .lies{
   position: absolute;
-
   height: 50vh;
   width: 80vw;
   left: 10%;
@@ -147,5 +146,22 @@ footer {
 @media only screen and (max-width: 480px) {
   .title{
     font-size: 1.3rem;
+  }
+
+  .lies{
+    position: relative;
+    left: 0;
+
+
+    width: 90vw;
+
+  }
+  .lies:hover{
+
+    left: 1%;
+  }
+
+  footer {
+    bottom: -280% !important;
   }
 }
