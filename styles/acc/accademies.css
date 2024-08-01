@@ -27,28 +27,29 @@ main{
 .menu{
     position: absolute;
     margin-top: 10%;
+    left: 2%;
     box-shadow: 0 2px 20px 0 black;
-    border-top-right-radius: 15px;
-    border-bottom-right-radius: 15px;
+    border-radius: 30px;
     max-height: 80vh;
     height: 80vh;
     overflow-y: scroll;
-    padding: 2% 0;
+    padding: 5% 0;
     width: 30%;
     background: rgb(14, 84, 189);
 }
 
 .links{
     position: absolute;
-    top: 0; 
+    top: 0;
+
     height: 80vh;
     width: 100%;
     display: flex;
     margin: 0;
     padding: 2%;
     flex-direction: column;
-    text-align: baseline;
-    border-top-right-radius: 15px;
+
+
 }
 .links h2{
     text-align: center;
