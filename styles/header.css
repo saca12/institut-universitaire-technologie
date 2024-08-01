@@ -174,12 +174,27 @@
 }
 @media  screen and (max-width: 480px){
     .logo{
-        display: none;
+        background: url(../images/logo.png) center ;
+        background-size: cover;
+        width: 55px;
+        height: 45px;
+        box-shadow: none;
+    }
+    .min-heigh svg{
+        top: -15px;
+
+
+    }
+
+    .min-heigh-cross svg{
+        top: -13px;
+
     }
     .nav-bar{
-        background: url(../images/img6.jpeg) center;
-        background-size: cover;
+
+
         border-radius: 0;
+        height: 10vh;
 
     }
     .nav-links{
