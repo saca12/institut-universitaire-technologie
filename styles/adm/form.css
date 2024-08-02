@@ -411,6 +411,7 @@ select{
     .submit input:hover{
         width: 14.5vw;
     }
+    
 }
 @media  screen and (max-width: 440px){
     body{
@@ -497,12 +498,15 @@ select{
     position: absolute;
     display: none;
     flex-direction: column;
-    width: 60%;
-    height: 95vh;
+    top: 0;
+    bottom: 0;/*Ajout*/
+    right: 0;/*Ajout*/
+    left: 0;/*Ajout*/
+    width: 100%;/*Ajout*/
+    height: 100vh;/*Ajout*/
     background: linear-gradient(#007BFF,#003366 );
     border-radius: 15px;
     box-shadow: 0 4px 20px 0 rgb(24, 23, 23),0 4px 20px 0 rgb(24, 23, 23);
-    margin-right: 5%;
 }
 .result table{
     position: absolute;
