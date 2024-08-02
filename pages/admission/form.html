@@ -142,7 +142,7 @@
             </div>
             <div class="submit">
                 <div class="cnt1"><div class="flech1"><a href="#"><input onclick="retourner()"  type="button" value="Retour" class="retour"></a></div></div>
-                <div class="cnt2"><div class="flech2"><a href="/index.html"><input type="button" value="Envoyer" class="envoyer"></a></div></div>
+                <div class="cnt2"><div class="flech2"><a href="#"><input type="button" value="Envoyer" class="envoyer"></a></div></div>
             </div>
         </form>
     </div>
@@ -249,22 +249,21 @@
         suivant.classList.remove('follow')
     }
 
-    const contact = document.querySelector('.contact')
-    const adress = document.querySelector('.adress')
+    const contact = document.querySelector('#contact')
+    const adress = document.querySelector('#adress')
     const passWord = document.querySelector('#password')
     const passWord_confirm = document.querySelector('#password_confirm')
-    const form2 = document.querySelector('#myForm2')
+    const envoyer = document.querySelector('.envoyer')
     const result = document.querySelector('.result')
 
     const nom_int = document.querySelector('.nom-int')
     const prenom_int = document.querySelector('.prenom-int')
-    const date_place_int = document.querySelector('.place_place_int')
+    const date_place_int = document.querySelector('.place_place-int')
     const national_int = document.querySelector('.national-int')
     const contact_int = document.querySelector('.contact-in')
     const adress_int = document.querySelector('.adress-in')
 
-    form2.addEventListener('submit',(e)=>{
-        e.preventDefault()
+    envoyer.addEventListener('click',()=>{
         if(passWord.value.trim() != passWord_confirm.value.trim())
         {
             err.style.color = '#b43535'
