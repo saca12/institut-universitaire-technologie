@@ -637,5 +637,11 @@ select{
         box-shadow: 0 4px 20px 0 rgb(24, 23, 23), 0 4px 20px 0 rgb(24, 23, 23);
         
     }
+
+    .error {
+        height: auto !important;
+        width: auto !important;
+        margin: 10px auto !important;
+    }
     
 }
