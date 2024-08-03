@@ -56,12 +56,14 @@ body {
 }
 .img3{
     top: 190vh;
+    background : url(../../images/tech.jpg);
     background-size : cover;
     background-reapeat : no-reapeat;
     backgroud-position : center;
 }
 .img4{
     top: 275vh;
+    background : url(../../images/stu3);
     background-size : cover;
     background-reapeat : no-reapeat;
     backgroud-position : center;
