@@ -158,6 +158,7 @@ footer{
     footer{
         bottom: -270vh !important;
         height: 110vh !important;
+        background: transparent;
     }
     .first,.second,.fird{
         display:none;
