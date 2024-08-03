@@ -114,8 +114,10 @@ footer .list .gmail:hover{
 }
 .author{
     position: absolute;
-    margin-left: 40%;
+    margin-top: 10px;
     bottom: 5%;
+    width: 100% !important;
+    text-align: center;
 }
 @media  screen and (max-width: 850px){
     footer{
@@ -139,9 +141,7 @@ footer .list .gmail:hover{
     footer p,footer h3, footer ul{
         width: 40vw;
     }
-    .author{
-        left: -30%;
-    }
+    
 }
 
 @media  screen and (max-width: 480px){

@@ -116,7 +116,7 @@ footer {
 }
 
     /* Styles pour la barre de navigation en mode responsive */
-    @media screen and (max-width: 768px) {
+    @media only screen and (max-width: 768px) {
       
       .container {
         width: 100%; /* Adapter la largeur à l'écran */
@@ -136,10 +136,7 @@ footer {
       .navbar.active {
         position: relative ; /* Fixer la navbar en haut */
       }
-      footer{
-        min-height: 150vh;
-        bottom: -300% !important;
-      }
+      
 
     }
 
@@ -162,7 +159,7 @@ footer {
   }
 
   footer {
-    bottom: -220% !important;
+    bottom: -240vh !important;
     height: 800px !important;
     min-height: auto !important;
   }
