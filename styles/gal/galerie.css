@@ -14,6 +14,9 @@ body {
     height: 410vh;
     background: linear-gradient(#003366,#007BFF );
 }
+.title{
+    position:absolute;
+}
 .container{
     position: relative;
     display: flex;
