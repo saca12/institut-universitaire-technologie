@@ -49,12 +49,22 @@ body {
 }
 .img2{
     top: 105vh;
+    background : url(../../images/teach3.jpg);
+    background-size : cover;
+    background-reapeat : no-reapeat;
+    backgroud-position : center;
 }
 .img3{
     top: 190vh;
+    background-size : cover;
+    background-reapeat : no-reapeat;
+    backgroud-position : center;
 }
 .img4{
     top: 275vh;
+    background-size : cover;
+    background-reapeat : no-reapeat;
+    backgroud-position : center;
 }
 h1{
     color: #FF7F50;
@@ -79,6 +89,7 @@ footer{
     height: 100%;
     transition: 0.5s;
 }
+/*
 .img1 .first,.img1 .second,.img1 .fird{
     display : none;
 }
@@ -137,6 +148,7 @@ footer{
     background-size: cover;
     cursor: pointer;
 }
+*/
 .cont{
     width: 80% !important;
 }
