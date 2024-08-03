@@ -95,3 +95,32 @@ main{
         min-height: 200vh !important;
     }
 }
+
+@media  screen and (max-width: 480px){
+    .view {
+        display: none;
+    }
+    footer{
+        bottom: -400% !important;
+        min-height:auto;
+        height: auto !important;
+        
+        
+    }
+
+    .cont {
+        position: static !important;
+    }
+
+    main {
+        width: 100vw;
+    }
+
+    .description {
+        width: 100%;
+    }
+
+    .title {
+        font-size: 1rem;
+    }
+}

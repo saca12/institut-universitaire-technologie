@@ -149,7 +149,8 @@ footer .list .gmail:hover{
         bottom: -200%;
         border-top-right-radius: 30px;
         border-top-left-radius: 30px;
-
+justify-content: start;
+height: 100%;
     }
 
 }

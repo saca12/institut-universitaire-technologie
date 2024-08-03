@@ -137,4 +137,52 @@ footer{
     .main2{
         display: block;
     }
+
+
+}
+
+@media only screen and (max-width: 480px) {
+    .links {
+        position: relative;
+        padding: 0;
+        height: auto;
+    }
+
+    .main2 {
+        margin: 0;
+        width: 100%;
+    }
+    .bgr {
+        width: 99vw;
+    }
+
+    footer{
+        bottom: -150% !important;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 750px !important;
+    }
+
+    footer p, footer h3, footer ul {
+        width: 90vw !important;  }
+
+    .cont {
+        text-align: start !important;
+        width: 100% !important;
+        margin: 0 !important;
+        align-items: start !important;
+        
+    }
+
+    footer .list {
+   
+        margin: 25px 0 !important;
+
+        width: 30% !important;
+    }
+
+    .logo-1, .logo, .logo-3 {
+        display: none;
+    }
 }
