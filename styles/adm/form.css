@@ -561,3 +561,78 @@ select{
         transform: rotate(0deg);
     }
 }
+
+@media only screen and (max-width: 760px) {
+    body *{
+        min-height: auto !important;
+        position: static !important;
+        min-width: auto !important;
+        overflow-x: hidden;
+        
+    }
+
+    .diplome {
+        display: block;
+    }
+
+    .container {
+        height: 100% !important;
+        width: 100% !important;
+        border-radius: 0 !important;
+        
+        
+    }
+
+    .champ {
+        margin-top: 0 !important;
+        height: auto !important;
+    }
+
+    .container .submit {
+        
+        width: auto;
+        height: auto;
+        bottom: 0;
+        margin: 20px 0;
+        display: flex;
+        justify-content: start;
+        align-items: center;
+    }
+
+    .suivant {
+        width: 100%;
+        display: block;
+        position: absolute !important;
+        width: 100% !important;
+        overflow-x: hidden;
+        height: 150vh;
+        top: 0;
+        left: 0;
+    }
+    .suivant .submit {
+        width: auto;
+        height: auto;
+        bottom: 0;
+        margin: 20px 0;
+        display: flex;
+        justify-content: start;
+        align-items: center;
+    }
+
+    .result {
+        position: absolute !important;
+        display: block !important;
+        flex-direction: column;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        width: 100%;
+        height: 100vh;
+        background: linear-gradient(#007BFF, #003366);
+        border-radius: 15px;
+        box-shadow: 0 4px 20px 0 rgb(24, 23, 23), 0 4px 20px 0 rgb(24, 23, 23);
+        z-index: 200;
+    }
+    
+}
