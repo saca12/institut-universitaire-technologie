@@ -38,12 +38,10 @@ body {
     height: 80vh;
     transition: 0.5s;
 }
-.img1:hover>h1,.img2:hover>h1,.img3:hover>h1,.img4:hover>h1{
-    transform: rotate(360deg);
-}
+
 .img1{
     top: 20vh;
-    background: url(../../images/tool.jpg);
+    background: url(../../images/E.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     cursor: pointer;
@@ -80,7 +78,6 @@ h1{
 footer{
     bottom: -320% !important;
 }
-/*
 .first,.second,.fird{
     width: 30%;
     height: 100%;
@@ -93,13 +90,9 @@ footer{
     height: 100%;
     transition: 0.5s;
 }
-.first,.second,.fird{
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    cursor: pointer;
+.img1 .first,.img1 .second,.img1 .fird{
+    display : none;
 }
-/*
 .img1 .first{
     background: url(../../images/stud.jpeg);
 }
@@ -136,7 +129,6 @@ footer{
 .img4 .fird{
     background: url(../../images/stud2.jpeg);
 }
-*/
 .cont{
     width: 80% !important;
 }
