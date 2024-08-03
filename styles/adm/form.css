@@ -604,7 +604,7 @@ select{
 
     .suivant {
         width: 100%;
-        display: block;
+       
         position: absolute !important;
         width: 100% !important;
         overflow-x: hidden;
@@ -624,7 +624,7 @@ select{
 
     .result {
         position: absolute !important;
-        display: block !important;
+
         flex-direction: column;
         top: 0;
         bottom: 0;
@@ -635,7 +635,7 @@ select{
         background: linear-gradient(#007BFF, #003366);
         border-radius: 15px;
         box-shadow: 0 4px 20px 0 rgb(24, 23, 23), 0 4px 20px 0 rgb(24, 23, 23);
-        z-index: 200;
+        
     }
     
 }
