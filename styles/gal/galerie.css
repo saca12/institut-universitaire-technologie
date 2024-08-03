@@ -93,41 +93,60 @@ footer{
 .img1 .first,.img1 .second,.img1 .fird{
     display : none;
 }
-.img1 .first{
-    background: url(../../images/stud.jpeg);
-}
-.img1 .second{
-    background: url(../../images/tool.jpg); 
-}
-.img1 .fird{
-    background: url(../../images/stud2.jpeg);
-}
+
 .img2 .first{
-    background: url(../../images/stud.jpeg);
+    background: url(../../images/stud2.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    cursor: pointer;
 }
 .img2 .second{
-    background: url(../../images/tool.jpg); 
+    background: url(../../images/tech.jpg); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    cursor: pointer;
 }
 .img2 .fird{
     background: url(../../images/stud2.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    cursor: pointer;
 }
 .img3 .first{
-    background: url(../../images/stud.jpeg);
+    background: url(../../images/electro.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    cursor: pointer;
 }
 .img3 .second{
-    background: url(../../images/tool.jpg); 
+    background: url(../../images/tech.jpg); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    cursor: pointer;
 }
 .img3 .fird{
-    background: url(../../images/stud2.jpeg);
+    background: url(../../images/usine.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    cursor: pointer;
 }
 .img4 .first{
     background: url(../../images/stud.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    cursor: pointer;
 }
 .img4 .second{
-    background: url(../../images/tool.jpg); 
+    background: url(../../images/stu3); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    cursor: pointer;
 }
 .img4 .fird{
     background: url(../../images/stud2.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    cursor: pointer;
 }
 .cont{
     width: 80% !important;
@@ -137,6 +156,33 @@ footer{
 }
 @media screen and (max-width: 850px) {
     footer{
-        bottom: 100%;
+        bottom: -270vh !important;
+        height: 110vh !important;
+    }
+    .first,.second,.fird{
+        display:none;
+    }
+    .back{
+        height:300vh;
+    }
+    h1{
+        font-size : 25px;
+    }
+    .img1,.img2,.img3,.img4{
+        height : 50vh;
+        width : 90vw;
+    }
+    .img1:hover,.img2:hover,.img3:hover,.img4:hover{
+        width:95vw;
+        height:50vh;
+    }
+    .img2{
+        top : 80vh;
+    }
+    .img3{
+        top : 140vh;
+    }
+    .img4{
+        top: 200vh;
     }
 }
