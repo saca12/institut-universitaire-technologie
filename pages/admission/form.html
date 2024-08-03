@@ -104,7 +104,7 @@
     <div class="suivant">
         <form class="request" action="traitement.php" method="post" id="myForm2">
             <div class="title"><h1>Demande d'admission</h1></div>
-            <div class="error"></div>
+            <div class="error2"></div>
             <div class="etat-civil info_comp">
                 <div class="sub-title"><h3>Informations Complémentaires</h3></div>
                 <div class="info">
@@ -249,29 +249,29 @@
         suivant.classList.remove('follow')
     }
 
-    const contact = document.querySelector('.tel') //remplacer .contact par .tel
-    const adress = document.querySelector('.adress') //remplacer .adress par #adress
+    const contact = document.querySelector('.tel') 
+    const adress = document.querySelector('.adress') 
     const password = document.querySelector('#password')
     const password_confirm = document.querySelector('#password_confirm')
-    const envoyer = document.querySelector('.envoyer') //remplacer form2 par envoyer
+    const envoyer = document.querySelector('.envoyer') 
     const result = document.querySelector('.result')
 
     const nom_int = document.querySelector('.nom-int')
     const prenom_int = document.querySelector('.prenom-int')
-    const date_place_int = document.querySelector('.date_place-int') //remplacer ".place_place_int" par "date_place-int"
+    const date_place_int = document.querySelector('.date_place-int') 
     const national_int = document.querySelector('.national-int')
     const contact_int = document.querySelector('.contact-in')
     const adress_int = document.querySelector('.adress-in')
-console.log(contact)
-    envoyer.addEventListener('click',(/*Enmever le paramètre*/)=>{ //remplacer myForm2 par envoyer ET replacer 'submit' par 'click'
+
+    envoyer.addEventListener('click',()=>{ 
         if(password.value.trim() != password_confirm.value.trim())
         {
             //supprimer e.preventDefault()
             err.style.color = '#b43535'
             err.innerHTML = "Le mot de pass n'est pas correctement entré"
         }else if(contact.value.trim()=="" || adress.value.trim()=="" || password.value.trim()==""){
-            err.style.color = '#b43535'
-            err.innerHTML = "Tous les champs doivent êtres remplis"
+            err2.style.color = '#b43535'
+            err2.innerHTML = "Tous les champs doivent êtres remplis"
         }else{
             result.classList.add("presentation")
             suivant.classList.remove("follow")

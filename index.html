@@ -58,6 +58,7 @@
     const academies = document.querySelector('.academies')
     const log = document.querySelector('.log')
     const galerie = document.querySelector('.galerie')
+    const content = document.querySelector('.the-content')
 
     home.addEventListener('click',()=>{
         home.classList.add('active')
@@ -92,6 +93,7 @@
     const nav = document.querySelector('.nav-links')
 
     ham.addEventListener('click',()=>{
+        content.classList.add('filtre')
         nav.classList.add('disp-now')
         if(nav.classList.contains('disp-now')){
             ham.style.display="none"
@@ -99,6 +101,7 @@
         }
     })
     cross.addEventListener('click',()=>{
+        content.classList.remove('filtre')
         nav.classList.remove('disp-now')
         if(!nav.classList.contains('disp-now')){
             cross.style.display="none"
