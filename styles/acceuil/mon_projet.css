@@ -162,6 +162,8 @@ footer {
   }
 
   footer {
-    bottom: -280% !important;
+    bottom: -220% !important;
+    height: 800px !important;
+    min-height: auto !important;
   }
 }

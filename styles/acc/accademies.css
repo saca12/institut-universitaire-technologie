@@ -157,7 +157,7 @@ footer{
     }
 
     footer{
-        bottom: -150% !important;
+        bottom: -880px !important;
         display: flex;
         justify-content: center;
         align-items: center;

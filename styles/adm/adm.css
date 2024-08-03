@@ -12,7 +12,7 @@
 .bgr{
     position: absolute;
     width: 100%;
-    height: 100vh;
+    
     background: linear-gradient(rgb(14, 84, 189),#007BFF);
     background-size: auto;
 }
@@ -107,34 +107,63 @@
     cursor: pointer;
 }
 .button{
-    position: absolute;
-
-    width: 15vw;
-    height: 3vw;
-    bottom: 5%;
-    margin-left: 40%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    cursor: pointer;
-    border-radius: 15px;
-}
-.button button{
-
+    position: fixed;
     background: #0a0a23;
-    padding: 10px;
+  margin-top: auto;
+  padding: 10px;
+ bottom: 20px;
+    padding: 15px auto;
+  
+    
+
+  
+    cursor: pointer;
     border-radius: 10px;
-    border: 1px solid;
     box-shadow: 0 2px 10px 0 black;
     font-weight: 600;
 }
-.button a{
 
-    position: absolute;
-    width: 10vw;
-    height: 3vw;
-}
-.button:hover{
-    width: 16vw;
-    transition: 0.3s;
+
+
+
+@media only screen and (max-width: 780px) {
+    body {
+        width: 100% !important;
+    }
+    .social-media {
+        display: none;
+    }
+    .bgr {
+        position: static; 
+        width: 100%; 
+        height: auto; 
+        background: none;
+    }
+    .title {
+        position: static;
+        margin-top: 7rem;
+        border-bottom: 1px solid #ccc;
+margin-left: 0;
+    }
+
+    .container {
+        position: static;
+  display: block;
+       
+        width: 50%;
+       
+        width: 100%;
+    }
+    h1, h2 {
+        font-size: medium;
+    }
+
+    .title h1 {
+        font-size: 2rem;
+        margin: 10px 0;
+        text-align: center;
+    }
+
+    
+    
 }
