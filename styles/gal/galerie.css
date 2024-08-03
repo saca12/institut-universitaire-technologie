@@ -96,13 +96,13 @@ footer{
 }
 
 .img2 .first{
-    background: url(../../images/stud.jpeg);
+    background: url(../../images/teach.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
     cursor: pointer;
 }
 .img2 .second{
-    background: url(../../images/teach.jpg); 
+    background: url(../../images/teach2.jpg); 
     background-repeat: no-repeat;
     background-size: cover;
     cursor: pointer;
