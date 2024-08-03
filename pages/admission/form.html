@@ -239,15 +239,15 @@
             }
         }
         if(cmp==req.length){
-            suivant.style.display="flex"
-            container.style.display="none"
+            suivant.classList.add("follow")
+            container.classList.add"masquer")
             
         }
     })
 
     function retourner(){
-        container.style.display="flex"
-        suivant.style.display="none"
+        container.classList.remove("masquer")
+        suivant.classList.remove("follow")
     }
 
     const contact = document.querySelector('.tel') 
