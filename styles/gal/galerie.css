@@ -49,24 +49,12 @@ body {
 }
 .img2{
     top: 105vh;
-    background: url(../../images/teach.jpeg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    cursor: pointer;
 }
 .img3{
     top: 190vh;
-    background: url(../../images/innov.jpeg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    cursor: pointer;
 }
 .img4{
     top: 275vh;
-    background: url(../../images/stud2.jpeg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    cursor: pointer;
 }
 h1{
     color: #FF7F50;
